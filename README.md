@@ -21,17 +21,17 @@ The name of the primary contributor(s), and technical collaborator(s) who create
 
 ### Technical instructions
 - When preparing submissions, it is advisable to create two files: a Data file for the dataset; and a Docs file for documentation and (where applicable) codebooks. Data should be submitted in original file format version. Subsets should be accommodated in the Data file – not submitted as separate data entries. (New iterations of the dataset can subsequently be submitted as new data entries). Documentation should include a concise overview of the project and methodology. Contributors presenting datasets for inclusion in the Dcf-Pwg repository should pay particular attention to data quality control, dataset structure and data protection. Clear and consistent metadata for folders, files, variables and versioning helps facilitate future data retrieval, reuse and replicability.
-- Names: Submitted data must adhere to name standards in order to clearly connect data and docs. Please add the following information to the files you submit separating them with _ (underscore)
-  - Date prefix: yyyy-mm-dd
-  - Name: a meaningful name for the set. Please, replace spaces with - or _ for compatibility reasons
-  - Subset: if there’s a need to submit subsets, name the files accordingly
-  - Status: DRAFT, VER1, VER2, etc.
-- Formats: Due to the wide definition of “data” and “dataset”, folders and format could change during the collection. Please, adhere to these specifications:
-  - code: source code. The set of instructions forming an algorithm, a web application, a computer application, a mobile application or a native-vr application;
-  - dataset: collection of data. A data set corresponds to the contents of a database table, or a statistical data matrix, where every column of the table represents a particular variable, and each row corresponds to a given member of the data set in question;
-  - docs: every document describing the submitted data;
-  - examples: stories, cases, bad and good practices;
-  - images: every vector or bitmap file that can be useful for data mining, or that’s data itself;
-  - xtra: every filetype different from the ones listed here
+- **Names:** Submitted data must adhere to name standards in order to clearly connect data and docs. Please add the following information to the files you submit separating them with _ (underscore)
+  - **Date prefix:** yyyy-mm-dd
+  - **Name:** a meaningful name for the set. Please, replace spaces with - or _ for compatibility reasons
+  - **Subset:** if there’s a need to submit subsets, name the files accordingly
+  - **Status:** DRAFT, VER1, VER2, etc.
+- **Formats:** Due to the wide definition of “data” and “dataset”, folders and format could change during the collection. Please, adhere to these specifications:
+  - **code:** source code. The set of instructions forming an algorithm, a web application, a computer application, a mobile application or a native-vr application;
+  - **dataset:** collection of data. A data set corresponds to the contents of a database table, or a statistical data matrix, where every column of the table represents a particular variable, and each row corresponds to a given member of the data set in question;
+  - **docs:** every document describing the submitted data;
+  - **examples:** stories, cases, bad and good practices;
+  - **images:** every vector or bitmap file that can be useful for data mining, or that’s data itself;
+  - **xtra:** every filetype different from the ones listed here
 - Executable file formats (see full list here: https://fileinfo.com/filetypes/executable) are usually banned for security reasons. In order to reposit an executable file formats, please propose it with proper documentation before uploading it.
 - For assistance, please write to Marco Magnano: marco@xrsi.org
